@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { Navbar, Nav, NavDropdown} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Homepage from './Homepage';
 
 function App() {
   return (
@@ -45,11 +46,9 @@ function App() {
         </Navbar.Collapse>
       </Navbar>
 
-
-      {/* Section B */}
-      <div class="section-b">
-        
-      </div>
+      
+      
+      <Homepage />
 
 
     </div>
