@@ -1,4 +1,7 @@
-.navbar{
-  height: 13vh;
+#poppingNavbar{
   position: fixed;
+  width: 100%;
+}
+.section-b{
+  height: 200vh;
 }

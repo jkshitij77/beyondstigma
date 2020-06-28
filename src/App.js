@@ -6,11 +6,20 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div>
-      <Navbar bg="dark" variant="dark" expand="lg" >
+      <Navbar bg="dark" variant="dark" expand="lg" id="poppingNavbar" >
         {/* <Navbar.Brand href="#home">Beyond Stigma</Navbar.Brand> */}
+          <Navbar.Brand href="#home">
+          <img
+            alt="company logo"
+            src={require("./logo.svg")}
+            width="100"
+            height="100"
+            className="d-inline-block align-top"
+          />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" >
-          <Nav className="mr-auto">            
+          <Nav className="ml-auto">          
 
             {/* About us dropdown */}
             <NavDropdown title="About us" id="basic-nav-dropdown" >
@@ -37,7 +46,8 @@ function App() {
       </Navbar>
 
 
-      <div>
+      {/* Section B */}
+      <div class="section-b">
         
       </div>
 
