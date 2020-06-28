@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import { Navbar, Nav, NavDropdown} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Aboutus from './aboutus';
+import Mentalillness from './mentalillness';
 
 function App() {
   return (
@@ -35,6 +37,7 @@ function App() {
               <NavDropdown.Item href="#action/3.2">High schoolers</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Thing 3</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.4">Thing 4</NavDropdown.Item>
+              {/* <NavDropdown.Divider /> */}
             </NavDropdown>
 
 
@@ -46,17 +49,14 @@ function App() {
       </Navbar>
 
 
-      {/* Section B */}
-      <div class="section-b">
-        
+      <div class="remove">
+        REMOVE THIS. Fill with padding
       </div>
-
+      <Aboutus />
+      <Mentalillness />
 
     </div>
   );
 }
 
 export default App;
-
-
-{/* <NavDropdown.Divider /> */}
