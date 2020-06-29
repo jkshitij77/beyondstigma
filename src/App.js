@@ -13,8 +13,8 @@ function App() {
           <Navbar.Brand href="#home">
           <img
             alt="company logo"
-            src={require("./logo.svg")}
-            width="100"
+            src={require("./logobs.png")}
+            width="auto"
             height="100"
             className="d-inline-block align-top"
           />
