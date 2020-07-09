@@ -46,9 +46,8 @@ function App() {
         </Navbar.Collapse>
       </Navbar>
 
-      
-      
       <Homepage />
+      
 
 
     </div>
