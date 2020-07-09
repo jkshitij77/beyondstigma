@@ -4,6 +4,7 @@ import { Navbar, Nav, NavDropdown} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Aboutus from './aboutus';
 import Mentalillness from './mentalillness';
+import Homepage from './Homepage';
 
 function App() {
   return (
@@ -54,6 +55,9 @@ function App() {
       </div>
       <Aboutus />
       <Mentalillness />
+      <Homepage />
+      
+
 
     </div>
   );
