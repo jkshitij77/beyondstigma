@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import { Navbar, Nav, NavDropdown} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Aboutus from './aboutus';
+import Mentalillness from './mentalillness';
 
 function App() {
   return (
@@ -11,8 +13,8 @@ function App() {
           <Navbar.Brand href="#home">
           <img
             alt="company logo"
-            src={require("./logo.svg")}
-            width="100"
+            src={require("./logobs.png")}
+            width="auto"
             height="100"
             className="d-inline-block align-top"
           />
@@ -35,6 +37,7 @@ function App() {
               <NavDropdown.Item href="#action/3.2">High schoolers</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Thing 3</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.4">Thing 4</NavDropdown.Item>
+              {/* <NavDropdown.Divider /> */}
             </NavDropdown>
 
 
@@ -46,17 +49,14 @@ function App() {
       </Navbar>
 
 
-      {/* Section B */}
-      <div class="section-b">
-        
+      <div class="remove">
+        REMOVE THIS. Fill with padding
       </div>
-
+      <Aboutus />
+      <Mentalillness />
 
     </div>
   );
 }
 
 export default App;
-
-
-{/* <NavDropdown.Divider /> */}
